@@ -4,10 +4,12 @@
   <name>mypkg</name>
   <version>0.0.0</version>
   <description>a package for practice</description>
-  <maintainer email="kazuman3939@gmail.com">Kazuma Fukumizu</maintainer>
+  <maintainer email="kazuman3939@gmail.com">Kazuma-2932</maintainer>
   <license>BSD-3-Clause</license>
+
   <exec_depend>rclpy</exec_depend>
-  <exec_depend>std_msgs</exec_depend>	  
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
@@ -17,4 +19,4 @@
   <export>
     <build_type>ament_python</build_type>
   </export>
-</package>
+  </package>
