@@ -1,32 +1,18 @@
 import rclpy
 from rclpy.node import Node
-from person_msgs.srv import Query
+from std_msgs.msg import Int16
 
-def main():
-    rclpy.init()
-    node = Node("listener")
-    client = node.create_client(Query, 'query')
-    while not client.wait_for_service(timeout_sec=1.0):
-        node.get_logger().info('待機中')
+rclpy.init()
+node = Node("talker")
+pub = node.create_publisher(Int16, "countup", 10)
+n = 0
 
-    req = Query.Request()
-    req.name = "福水一磨"
-    future = client.call_async(req)
+def cb():
+    global n
+    msg = Int16()
+    msg.data = n
+    pub.publish(msg)
+    n += 1
 
-    while rclpy.ok():
-        rclpy.spin_once(node)
-        if future.done():
-            try:
-                response = future.result()
-            except:
-                node.get_logger().info('呼び出し失敗')
-            else:
-                node.get_logger().info("age: {}".format(response.age))
-
-            break
-
-    node.destroy_node()
-    rclpy.shutdown()
-
-if __name__ == '__main__':
-    main()
+node.create_timer(0.5, cb)
+rclpy.spin(node)
