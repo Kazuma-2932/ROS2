@@ -13,17 +13,17 @@ talker.pyとlistener.pyというノードを用いて数字を通信し、表示
 #  使い方と結果  
  *  使い方  
 
- 　1. 端末１で以下のコードを入力し、talker.pyを立ち上げる。  
+ 　1. 端末１で以下のコードを入力し、talker.pyを立ち上げる。
 
-  ``
-  $ ros2 run mypkg talker
-  ``
+   ``
+   $ ros2 run mypkg talker
+   ``
 
- 　2. 端末２で以下のコードを入力し、listener.pyを立ち上げる。  
+ 　2. 端末２で以下のコードを入力し、listener.pyを立ち上げる。
 
-  ``
-  $ ros2 run mypkg listener
-  ``
+   ``
+   $ ros2 run mypkg listener
+   ``
 
  *  結果
   
