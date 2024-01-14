@@ -28,6 +28,7 @@ talker.pyとlistener.pyというノードを用いて数字を通信し、表示
  *  結果
   
 ``
+
 [INFO] [1705142972.437665858] [listener]: Listen: 30  
 
 [INFO] [1705142972.931000807] [listener]: Listen: 31  
@@ -49,6 +50,7 @@ talker.pyとlistener.pyというノードを用いて数字を通信し、表示
 [INFO] [1705142976.931112156] [listener]: Listen: 39  
 
 [INFO] [1705142977.431388473] [listener]: Listen: 40  
+
 ``
 
 #  必要なソフトウェア  
