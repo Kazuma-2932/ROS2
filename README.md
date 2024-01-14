@@ -1,5 +1,5 @@
 #  mypkg  
-![test]https://(github.com/Kazuma-2932/mypkg/actions/workflows/test.yml/badge.svg)  
+![test](https://github.com/Kazuma-2932/mypkg/actions/workflows/test.yml/badge.svg)  
 talker.pyとlistener.pyというノードを用いて数字を通信し、表示するリポジトリです。  
 
 #  ノードの説明    
