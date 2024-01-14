@@ -25,30 +25,31 @@ talker.pyとlistener.pyというノードを用いて数字を通信し、表示
   　$ ros2 run mypkg listener  
     ``
 
- *  結果  
-  ``
-  [INFO] [1705142972.437665858] [listener]: Listen: 30  
+ *  結果
+  
+``
+[INFO] [1705142972.437665858] [listener]: Listen: 30  
 
-  [INFO] [1705142972.931000807] [listener]: Listen: 31  
+[INFO] [1705142972.931000807] [listener]: Listen: 31  
 
-  [INFO] [1705142973.430993508] [listener]: Listen: 32  
+[INFO] [1705142973.430993508] [listener]: Listen: 32 
 
-  [INFO] [1705142973.930983991] [listener]: Listen: 33  
+[INFO] [1705142973.930983991] [listener]: Listen: 33  
 
-  [INFO] [1705142974.431424769] [listener]: Listen: 34  
+[INFO] [1705142974.431424769] [listener]: Listen: 34  
 
-  [INFO] [1705142974.930150495] [listener]: Listen: 35  
+[INFO] [1705142974.930150495] [listener]: Listen: 35  
 
-  [INFO] [1705142975.430611720] [listener]: Listen: 36  
+[INFO] [1705142975.430611720] [listener]: Listen: 36  
 
-  [INFO] [1705142975.930991267] [listener]: Listen: 37  
+[INFO] [1705142975.930991267] [listener]: Listen: 37  
 
-  [INFO] [1705142976.430785924] [listener]: Listen: 38  
+[INFO] [1705142976.430785924] [listener]: Listen: 38  
 
-  [INFO] [1705142976.931112156] [listener]: Listen: 39  
+[INFO] [1705142976.931112156] [listener]: Listen: 39  
 
-  [INFO] [1705142977.431388473] [listener]: Listen: 40  
-  ``
+[INFO] [1705142977.431388473] [listener]: Listen: 40  
+``
 
 #  必要なソフトウェア  
  ROS2 foxy  
